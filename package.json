@@ -4,6 +4,7 @@
   "description": "This application allows for searching vehicle information by VIN",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
