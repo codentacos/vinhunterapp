@@ -1,0 +1,21 @@
+<%- include('../partials/header') %>
+
+<div id="owl-demo" class="owl-carousel owl-theme">
+    <div id="item-1" class="item"></div>
+    <div id="item-2" class="item"></div>
+    <div id="item-3" class="item"></div>
+  </div>
+
+<div class="container">
+    <div class="content">
+        <h1>vin hunter</h1>
+        <form action="/car" method="GET">
+            <p>Need to search a VIN number? Look no further!</p>
+            <input type="text" name='vindata' minlength='17' maxlength='17' placeholder="Search VIN..." required>
+            <button>Search</button>
+        </form>
+    </div>
+</div>
+
+
+<%- include('../partials/footer') %>

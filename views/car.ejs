@@ -1,0 +1,136 @@
+<%- include('../partials/header') %>
+
+<div class="cars-container">
+    <!-- <table>
+        <tr>
+            <th colspan="2">Information</th>
+        </tr>
+        <tr>
+            <td>VIN:</td>
+            <td>4F2YU09161KM33122</td>
+        </tr>
+        <tr>
+            <td>Year:</td>
+            <td>2001</td>
+        </tr>
+        <tr>
+            <td>Make:</td>
+            <td>MAZDA</td>
+        </tr>
+        <tr>
+            <td>Model:</td>
+            <td>TRIBUTE</td>
+        </tr>
+        <tr>
+            <td>Trim:</td>
+            <td>LX</td>
+        </tr>
+        <tr>
+            <td>Engine:</td>
+            <td>3.0L V6 DOHC 24V</td>
+        </tr>
+        <tr>
+            <td>Style:</td>
+            <td>SPORT UTILITY 4-DR</td>
+        </tr>
+        <tr>
+            <td>Origin:</td>
+            <td>UNITED STATES</td>
+        </tr>
+        <tr>
+            <td>Brakes:</td>
+            <td>Non-ABS | 4-Wheel ABS</td>
+        </tr>
+        <tr>
+            <td>Fuel Capacity:</td>
+            <td>16.40 gallon</td>
+        </tr>
+        <tr>
+            <td>Highway MPG:</td>
+            <td>24 miles/gallon</td>
+        </tr>
+        <tr>
+            <td>City MPG:</td>
+            <td>18 miles/gallon</td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="back-btn"><a href="/">Go Back</a></button></td>
+        </tr>
+    </table> -->
+
+    <table>
+        <tr>
+            <th colspan="2">Information</th>
+        </tr>
+        <tr>
+            <td>VIN:</td>
+            <td><%= data.specification.vin %></td>
+        </tr>
+        <tr>
+            <td>Year:</td>
+            <td><%= data.specification.year %></td>
+        </tr>
+        <tr>
+            <td>Make:</td>
+            <td><%= data.specification.make %></td>
+        </tr>
+        <tr>
+            <td>Model:</td>
+            <td><%= data.specification.model %></td>
+        </tr>
+        <tr>
+            <td>Trim:</td>
+            <td><%= data.specification.trim_level %></td>
+        </tr>
+        <tr>
+            <td>Engine:</td>
+            <td><%= data.specification.engine %></td>
+        </tr>
+        <tr>
+            <td>Style:</td>
+            <td><%= data.specification.style %></td>
+        </tr>
+        <tr>
+            <td>Origin:</td>
+            <td><%= data.specification.made_in %></td>
+        </tr>
+        <tr>
+            <td>Brakes:</td>
+            <td><%= data.specification.anti_brake_system %></td>
+        </tr>
+        <tr>
+            <td>Highway MPG:</td>
+            <td><%= data.specification.highway_mileage %></td>
+        </tr>
+        <tr>
+            <td>City MPG:</td>
+            <td><%= data.specification.city_mileage %></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="back-btn"><a href="/">Go Back</a></button></td>
+        </tr>
+    </table>
+</div>
+
+
+
+<!-- <h1>this is the car page</h1>
+
+<p>VIN: 4F2YU09161KM33122</p>
+<p>Year: 2001</p>
+<p>Make: MAZDA</p>
+<p>Model: TRIBUTE</p>
+<p>Trim: LX</p>
+<p>Engine: 3.0L V6 DOHC 24V</p>
+<p>Style: SPORT UTILITY 4-DR</p>
+<p>Origin: UNITED STATES</p>
+<p>Brakes: Non-ABS | 4-Wheel ABS</p>
+<p>Fuel Capacity: 16.40 gallon</p>
+<p>Highway MPG: 24 miles/gallon</p>
+<p>City MPG: 18 miles/gallon</p> -->
+
+
+
+
+
+<%- include('../partials/footer') %>
